@@ -7,10 +7,13 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Api
 {
+    /**
+     * @return string[]
+     */
     public function scrapeWebsite(): array {
         $url =  'https://bindingofisaacrebirth.fandom.com/wiki/Items';
 
-        $html = file_get_contents($url);
+        $html = (string)file_get_contents($url);
 
         $crawler = new Crawler($html);
 

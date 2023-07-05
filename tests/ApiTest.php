@@ -1,14 +1,14 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Sterlingarcher\GodsPakaje\Api;
+use Quentinlegeron\Nebuleuse\Api;
 
 class ApiTest extends TestCase
 {
     public function testScrapeWebsite(): void
     {
         $api = new Api();
-        $results = $api->scrapeWebsite();
+        $this->assertIsArray($api->scrapeWebsite());
     }
 }
 

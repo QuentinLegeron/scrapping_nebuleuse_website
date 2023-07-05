@@ -1,5 +1,5 @@
 # scrapping BindingOfIsaac
-Package for scrapping the nebuleuse store web site for earring
+Package for scrapping the binding of isaac fandom items
 
 ## Installation
 
