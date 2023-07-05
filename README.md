@@ -1,4 +1,4 @@
-# scrapping nebuleuse
+# scrapping BindingOfIsaac
 Package for scrapping the nebuleuse store web site for earring
 
 ## Installation

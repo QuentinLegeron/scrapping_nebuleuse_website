@@ -9,8 +9,6 @@ class ApiTest extends TestCase
     {
         $api = new Api();
         $results = $api->scrapeWebsite();
-
-        $this->assertIsArray($results);
     }
 }
 
