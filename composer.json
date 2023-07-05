@@ -1,0 +1,31 @@
+{
+    "name": "quentinlegeron/nebuleuse",
+    "description": "scrapping of nebuleuse store",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Quentinlegeron\\Nebuleuse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Legeron Quentin",
+            "email": "quentin.legeron@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-client": "^6.3",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2"
+    },
+    "scripts":{
+        "phpstan": "@php vendor/bin/phpstan analyse src --level=max",
+        "test": "@php vendor/bin/phpunit tests"
+    }
+}
