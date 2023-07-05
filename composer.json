@@ -1,6 +1,6 @@
 {
     "name": "quentinlegeron/nebuleuse",
-    "description": "scrapping of nebuleuse store",
+    "description": "scrapping of Binding of Isaac - items",
     "type": "library",
     "license": "MIT",
     "autoload": {

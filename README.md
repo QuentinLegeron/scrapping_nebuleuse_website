@@ -1,9 +1,6 @@
 # scrapping BindingOfIsaac
 Package for scrapping the binding of isaac fandom items
 
-## Installation
-
-
 ## Local development
 ```bash
     composer install
@@ -11,4 +8,14 @@ Package for scrapping the binding of isaac fandom items
 
 ```bash
     php vendor/bin/phpstan --level-max
+```
+
+## Testing 
+
+```bash
+    composer phpstan
+```
+
+```bash
+    composer test
 ```
